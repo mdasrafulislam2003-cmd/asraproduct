@@ -1,0 +1,51 @@
+import { motion } from "framer-motion";
+
+export default function AboutSection() {
+  return (
+    <section id="about" className="bg-teal-dark px-6 py-24">
+      <div className="max-w-3xl mx-auto text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+        >
+          <h2 className="font-serif text-primary-foreground text-4xl md:text-5xl leading-tight mb-6">
+            I enjoy designing for growth or any products that make the world a bit better.
+          </h2>
+          <p className="text-primary-foreground/70 text-lg mb-4 leading-relaxed">
+            Designers are problem solvers at heart.
+          </p>
+          <p className="text-primary-foreground/70 mb-4 leading-relaxed">
+            I truly believe that by leveraging our skills, we can make the world a better place.
+          </p>
+          <p className="text-primary-foreground/70 mb-10 leading-relaxed">
+            My goal is to contribute to these ideals in any way I can.
+            <br />If you feel the same, I'd love to talk.
+          </p>
+
+          <div className="flex items-center justify-center gap-4 flex-wrap">
+            <motion.a
+              href="https://www.linkedin.com/in/hbshih/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-primary-foreground text-primary px-7 py-3 rounded-full font-medium hover:opacity-90 transition-all"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Find me on Linkedin
+            </motion.a>
+            <motion.a
+              href="#"
+              className="border border-primary-foreground/40 text-primary-foreground px-7 py-3 rounded-full font-medium hover:bg-primary-foreground/10 transition-all"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Learn more about me
+            </motion.a>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
