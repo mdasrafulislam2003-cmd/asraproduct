@@ -77,15 +77,15 @@ export default function HeroSection() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.55 }}>
 
-            Product Designer with 10+ years of experience across Growth and AI.
+            Senior Product Designer with 6+ years of experience across SaaS and AI.
             <br />
-            Builder of{" "}
-            <a href="https://notchflow.app/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 text-foreground hover:opacity-70 transition-opacity">
-              Notchflow.app
+            Leading{" "}
+            <a href="https://indiaindex.com/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 text-foreground hover:opacity-70 transition-opacity">
+              IndiaIndex.com
             </a>{" "}
-            · Growth Designer at{" "}
-            <a href="http://miro.com/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 text-foreground hover:opacity-70 transition-opacity">
-              Miro
+            · Ex: Founding Product Designer at{" "}
+            <a href="https://weplaysports.com/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 text-foreground hover:opacity-70 transition-opacity">
+              WePlay Sports
             </a>
           </motion.p>
 
