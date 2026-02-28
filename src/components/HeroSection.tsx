@@ -77,15 +77,9 @@ export default function HeroSection() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.55 }}>
 
-            Senior Product Designer with 6+ years of experience across SaaS and AI.
-            <br />
-            Leading{" "}
+            Product Designer with 10+ years across SaaS, AI, and Growth. 6+ years in early-stage startups, currently leading Design at India Index.{" "}
             <a href="https://indiaindex.com/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 text-foreground hover:opacity-70 transition-opacity">
-              IndiaIndex.com
-            </a>{" "}
-            · Ex: Founding Product Designer at{" "}
-            <a href="https://weplaysports.com/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 text-foreground hover:opacity-70 transition-opacity">
-              WePlay Sports
+              @IndiaIndex.com
             </a>
           </motion.p>
 
