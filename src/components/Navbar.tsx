@@ -35,7 +35,7 @@ export default function Navbar() {
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.95 }}>
 
-          <img alt="Ben Shih" className="w-full h-full object-cover" src="" />
+          <img alt="Asra" className="w-full h-full object-cover" src={avatarImg} />
         </motion.div>
       </a>
 
