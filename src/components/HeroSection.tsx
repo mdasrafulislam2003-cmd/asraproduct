@@ -85,7 +85,7 @@ export default function HeroSection() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}>
-            Industry experience: E-commerce, Procurement, Sales, Sports Management, Facility, Fintech, Blockchain
+            Industry experience: E-commerce, Procurement, Sales, Sports, Facility, Fintech, Blockchain
           </motion.p>
 
           {/* CTA row */}
