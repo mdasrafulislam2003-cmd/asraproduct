@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="space-y-2">
               {[
                 { label: "Linkedin", href: "https://www.linkedin.com/in/asra2003/" },
-                { label: "Bento", href: "https://bento.me/hbshih" },
+                { label: "Dribbble", href: "https://dribbble.com/asraful1234" },
                 { label: "Read.CV", href: "https://read.cv/benshih" },
                 { label: "Github", href: "https://github.com/hbshih" },
               ].map((link) => (
