@@ -26,21 +26,21 @@ const testimonials = [
   color: "#D4A090"
 },
 {
-  quote: "Working with Asra on our onboarding redesign was a game changer. She brought structure, creativity, and clear metrics that drove real business results. Her ability to balance aesthetic sensibility with strategic thinking is something I rarely see in a designer — she made the entire process seamless and the outcome spoke for itself.",
+  quote: "Grateful to have worked with Asra during a key phase of India Index's product development.\nHe played a pivotal role in reimagining our visual identity—turning complex sourcing workflows into intuitive, high-impact design. A talented designer with real product instincts.",
   name: "James Okafor",
   title: "CPO, Miro",
   initials: "JO",
   color: "#F5C842"
 },
 {
-  quote: "Asra has a unique ability to deeply understand user pain points and translate them into elegant, intuitive solutions. A truly exceptional product designer. She led workshops, synthesised research, and delivered a design system that our whole team now relies on every single day.",
+  quote: "With design, active learning is a sign of potential for success. You learn from what customers / users want and how they need to work. You need to run experiments and learn what works over time for different types of users and user groups. You need to learn what makes products a success and you need to learn from those around you because things are constantly changing. During the UX Design Wizard project, Asraful demonstrated he is an active learner and quiet achiever. With design, active learning is a sign of potential for success. You learn from what customers / users want and how they need to work. You need to run experiments and learn what works over time for different types of users and user groups. You need to learn what makes products a success and you need to learn from those around you because things are constantly changing. During the UX Design Wizard project, Asraful demonstrated he is an active learner and quiet achiever.",
   name: "Priya Menon",
   title: "CEO, InfuseAI",
   initials: "PM",
   color: "#A8C5B5"
 },
 {
-  quote: "Her growth mindset and workshop facilitation skills made our team align faster and ship better products. I'd work with Asra again in a heartbeat. She brought clarity to ambiguous problems, gave the team confidence, and delivered work that was both beautiful and grounded in real user needs.",
+  quote: "I collaborated with Asraful on the same internship project and I can honestly say that he's one of the most passionate, knowledgeable, dedicated, respectful and kind-hearted colleagues I have ever met. He's a young man with a bright mind that can solve any business problem. Asraful is proficient in being able to use the observations with an innovative approach to solve business problems and structure UX Research utilising a mix of design research methods. If you are exploring a young bright-minded designer for your next design problem, then I highly recommend Asraful!",
   name: "Lucas Berg",
   title: "VP Design, OrganAI",
   initials: "LB",
