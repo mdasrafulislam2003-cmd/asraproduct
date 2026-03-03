@@ -94,9 +94,9 @@ export default function HeroSection() {
               Explore my projects
             </a>
             <div className="flex items-center gap-2 text-muted-foreground text-sm">
-              <svg width="32" height="44" viewBox="0 0 32 44" fill="none">
-                <path d="M16 2 C24 4, 8 10, 18 16 C28 22, 6 28, 18 34 C24 37, 14 40, 16 42" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" fill="none" />
-                <path d="M10 36 L16 44 L22 36" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+              <svg width="36" height="48" viewBox="0 0 36 48" fill="none">
+                <path d="M18 2 Q28 8 10 16 Q2 20 22 28 Q32 32 14 40 Q10 42 18 46" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" fill="none" />
+                <path d="M11 40 L18 48 L25 40" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none" />
               </svg>
               <span className="italic text-sm leading-snug">(In case you are tired of<br />reading portfolio...)</span>
             </div>
