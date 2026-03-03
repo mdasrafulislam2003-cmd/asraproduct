@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        serif: ["DM Serif Display", "serif"],
-        sans: ["DM Sans", "sans-serif"],
+        serif: ["Varela Round", "sans-serif"],
+        sans: ["Varela Round", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
