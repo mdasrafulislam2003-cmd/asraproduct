@@ -40,17 +40,7 @@ const caseStudies = [
   locked: true,
   bg: "#A8C5B5"
 },
-{
-  tag: "#0 to 1",
-  company: "ORGANAISE (2021)",
-  title: "App for managing meetings",
-  description: "I co-founded and developed the OrganAI.se app, which uses AI to simplify scheduling meetings between people (prior to the release of ChatGPT).",
-  cta: "🔑 Reach out for access",
-  image: coverOrganai,
-  href: "#",
-  locked: true,
-  bg: "#B8C4E0"
-}];
+];
 
 
 const fadeUp = {
