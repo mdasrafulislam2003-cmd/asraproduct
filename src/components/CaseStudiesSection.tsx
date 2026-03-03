@@ -9,43 +9,47 @@ import coverOrganai from "@/assets/cover-organai.jpg";
 const caseStudies = [
   {
     tag: "#Growth design",
-    company: "Lokalise (2024)",
+    company: "LOKALISE (2024)",
     title: "Redesigning onboarding",
     description: "An onboarding redesign that increased activation rate by 19% and sign-up rate by 41%",
-    cta: "Read case study",
+    cta: "READ CASE STUDY",
     image: coverOnboarding,
     href: "/case-study/onboarding",
     locked: false,
+    bg: "#D4A090",
   },
   {
     tag: "#Growth design",
-    company: "Miro (2024)",
+    company: "MIRO (2024)",
     title: "Miro end-of-year recap",
     description: "An end-of-year campaign that engaged more than 13M users globally.",
     cta: "🔑 Reach out for access",
     image: coverRecap,
     href: "#",
     locked: true,
+    bg: "#F5C842",
   },
   {
     tag: "#0 to 1",
-    company: "Infuseai (2022)",
+    company: "INFUSEAI (2022)",
     title: "A Github for Data Scientists",
     description: "We built a platform that enables Data Scientists to track their machine learning models and all changes made by the team.",
     cta: "🔑 Reach out for access",
     image: coverDatascience,
     href: "#",
     locked: true,
+    bg: "#A8C5B5",
   },
   {
     tag: "#0 to 1",
-    company: "organaise (2021)",
+    company: "ORGANAISE (2021)",
     title: "App for managing meetings",
     description: "I co-founded and developed the OrganAI.se app, which uses AI to simplify scheduling meetings between people (prior to the release of ChatGPT).",
     cta: "🔑 Reach out for access",
     image: coverOrganai,
     href: "#",
     locked: true,
+    bg: "#B8C4E0",
   },
 ];
 
@@ -76,19 +80,58 @@ export default function CaseStudiesSection() {
         </p>
       </motion.div>
 
-      {/* Cards Grid */}
-      <div className="grid grid-cols-1 gap-6">
+      {/* Cards */}
+      <div className="flex flex-col gap-5">
         {caseStudies.map((study, i) => {
-          const CardWrapper = ({ children }: { children: React.ReactNode }) =>
-            !study.locked ? (
-              <Link to={study.href} className="group block bg-card rounded-2xl border border-border overflow-hidden cursor-pointer">
-                {children}
-              </Link>
-            ) : (
-              <div className="group block bg-card rounded-2xl border border-border overflow-hidden cursor-default opacity-80">
-                {children}
+          const inner = (
+            <div className="flex flex-col md:flex-row min-h-[280px] rounded-2xl overflow-hidden">
+              {/* Left: text content on colored bg */}
+              <div
+                className="flex flex-col justify-between p-8 md:w-[45%] flex-shrink-0"
+                style={{ background: study.bg }}
+              >
+                <div>
+                  <div className="flex items-center gap-2 mb-6 flex-wrap">
+                    <span className="text-xs font-medium bg-white/40 text-[#1a1a1a] px-3 py-1 rounded-full">
+                      {study.tag}
+                    </span>
+                    <span className="text-xs font-bold tracking-widest text-[#1a1a1a]/70 uppercase">
+                      {study.company}
+                    </span>
+                  </div>
+                  <h3 className="font-serif text-[#1a1a1a] text-2xl md:text-3xl leading-tight mb-4">
+                    {study.title}
+                  </h3>
+                  <p className="text-[#1a1a1a]/70 text-sm leading-relaxed mb-6 font-normal">
+                    {study.description}
+                  </p>
+                </div>
+                {!study.locked && (
+                  <span className="text-xs font-bold tracking-widest uppercase text-[#1a1a1a] flex items-center gap-1 group-hover:gap-2 transition-all">
+                    {study.cta} →
+                  </span>
+                )}
+                {study.locked && (
+                  <span className="text-xs font-medium text-[#1a1a1a]/60">
+                    {study.cta}
+                  </span>
+                )}
               </div>
-            );
+
+              {/* Right: mockup image */}
+              <div
+                className="flex-1 flex items-end justify-end overflow-hidden relative"
+                style={{ background: study.bg }}
+              >
+                <img
+                  src={study.image}
+                  alt={study.title}
+                  className="w-full h-full object-cover object-left-top transition-transform duration-500 group-hover:scale-[1.03]"
+                  style={{ borderRadius: "12px 12px 12px 0", marginRight: "0", marginBottom: "0", maxHeight: "320px", objectFit: "cover" }}
+                />
+              </div>
+            </div>
+          );
 
           return (
             <motion.div
@@ -98,38 +141,18 @@ export default function CaseStudiesSection() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              whileHover={!study.locked ? { y: -6, transition: { duration: 0.2 } } : {}}
+              whileHover={!study.locked ? { y: -4, transition: { duration: 0.2 } } : {}}
+              className="group"
             >
-              <CardWrapper>
-                <div className="flex flex-col md:flex-row">
-                  {/* Image */}
-                  <div className="relative md:w-80 h-56 md:h-auto flex-shrink-0 overflow-hidden">
-                    <img
-                      src={study.image}
-                      alt={study.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    {/* Arrow */}
-                    {!study.locked && (
-                      <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-background/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-2 group-hover:translate-x-0">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                          <path d="M3 13L13 3M13 3H6M13 3V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
-                      </div>
-                    )}
-                  </div>
-                  {/* Content */}
-                  <div className="p-6 flex flex-col justify-center">
-                    <span className="text-xs font-medium text-muted-foreground bg-secondary px-2 py-1 rounded-full w-fit">{study.tag}</span>
-                    <p className="text-sm font-semibold text-muted-foreground mt-3 mb-1">{study.company}</p>
-                    <h3 className="font-serif text-foreground text-2xl mb-2">{study.title}</h3>
-                    <p className="text-muted-foreground text-sm mb-4 leading-relaxed max-w-lg">{study.description}</p>
-                    <span className="text-sm font-medium text-foreground underline underline-offset-2 group-hover:opacity-70 transition-opacity">
-                      {study.cta} →
-                    </span>
-                  </div>
+              {!study.locked ? (
+                <Link to={study.href} className="block rounded-2xl overflow-hidden shadow-sm">
+                  {inner}
+                </Link>
+              ) : (
+                <div className="block rounded-2xl overflow-hidden shadow-sm opacity-90 cursor-default">
+                  {inner}
                 </div>
-              </CardWrapper>
+              )}
             </motion.div>
           );
         })}
