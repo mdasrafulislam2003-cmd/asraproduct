@@ -55,8 +55,8 @@ export default function SideProjectsSection() {
           
           <span className="text-muted-foreground text-sm font-medium uppercase tracking-widest">Fun</span>
           <h2 className="font-serif text-teal-dark text-3xl md:text-4xl mt-2 mb-3">Visual projects</h2>
-          <p className="text-foreground max-w-lg font-normal not-italic">
-            I don't always get to flex my visual creativity in real-world B2B products — that's why I share my design explorations on Dribbble.
+          <p className="text-foreground max-w-lg font-normal not-italic">I don't always get to flex my visual creativity in real-world SaaS products — that's why I share my design explorations on Dribbble.
+
           </p>
         </motion.div>
 
