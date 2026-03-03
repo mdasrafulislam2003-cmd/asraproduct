@@ -14,7 +14,7 @@ export default function AboutSection() {
             I enjoy designing for growth or any products that make the world a bit better.
           </h2>
           <p className="text-primary-foreground/70 text-lg mb-4 leading-relaxed">
-            Designers are problem solvers at heart.
+
           </p>
           
 
