@@ -149,7 +149,7 @@ export default function HeroSection() {
               <polygon points="388,192 426,210 388,228" fill="white" />
               {/* Speed overlay */}
               <rect x="330" y="275" width="140" height="34" rx="17" fill="rgba(0,0,0,0.7)" />
-              <text x="350" y="297" fill="white" fontSize="11" fontFamily="sans-serif">⚡ 1.2x  ·  42 sec</text>
+              <text x="350" y="297" fill="white" fontSize="11" fontFamily="sans-serif">⚡ 1.2x · 42 sec</text>
             </svg>
           </div>
         </motion.div>
