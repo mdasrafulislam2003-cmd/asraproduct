@@ -4,9 +4,9 @@ import avatarImg from "@/assets/avatar.jpg";
 
 const navLinks = [
 { label: "Work", href: "#case-study-section", active: true },
-{ label: "Fun", href: "#side-projects" },
-{ label: "About me", href: "#about" },
-{ label: "Medium ↗", href: "https://hbshih.medium.com/", external: true }];
+{ label: "About Me", href: "#side-projects" },
+{ label: "Linkedin", href: "#about" },
+{ label: "Read.CV ↗", href: "https://drive.google.com/file/d/1w1gzvID9LRlNR1bk3LkTIkj3w_ujaWTN/view", external: true }];
 
 
 export default function Navbar() {
