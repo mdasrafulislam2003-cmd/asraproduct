@@ -7,59 +7,59 @@ import coverDatascience from "@/assets/cover-datascience.jpg";
 import coverOrganai from "@/assets/cover-organai.jpg";
 
 const caseStudies = [
-  {
-    tag: "#Growth design",
-    company: "LOKALISE (2024)",
-    title: "Redesigning onboarding",
-    description: "An onboarding redesign that increased activation rate by 19% and sign-up rate by 41%",
-    cta: "READ CASE STUDY",
-    image: coverOnboarding,
-    href: "/case-study/onboarding",
-    locked: false,
-    bg: "#D4A090",
-  },
-  {
-    tag: "#Growth design",
-    company: "MIRO (2024)",
-    title: "Miro end-of-year recap",
-    description: "An end-of-year campaign that engaged more than 13M users globally.",
-    cta: "🔑 Reach out for access",
-    image: coverRecap,
-    href: "#",
-    locked: true,
-    bg: "#F5C842",
-  },
-  {
-    tag: "#0 to 1",
-    company: "INFUSEAI (2022)",
-    title: "A Github for Data Scientists",
-    description: "We built a platform that enables Data Scientists to track their machine learning models and all changes made by the team.",
-    cta: "🔑 Reach out for access",
-    image: coverDatascience,
-    href: "#",
-    locked: true,
-    bg: "#A8C5B5",
-  },
-  {
-    tag: "#0 to 1",
-    company: "ORGANAISE (2021)",
-    title: "App for managing meetings",
-    description: "I co-founded and developed the OrganAI.se app, which uses AI to simplify scheduling meetings between people (prior to the release of ChatGPT).",
-    cta: "🔑 Reach out for access",
-    image: coverOrganai,
-    href: "#",
-    locked: true,
-    bg: "#B8C4E0",
-  },
-];
+{
+  tag: "#Growth design",
+  company: "LOKALISE (2024)",
+  title: "Redesigning onboarding",
+  description: "An onboarding redesign that increased activation rate by 19% and sign-up rate by 41%",
+  cta: "READ CASE STUDY",
+  image: coverOnboarding,
+  href: "/case-study/onboarding",
+  locked: false,
+  bg: "#D4A090"
+},
+{
+  tag: "#Growth design",
+  company: "MIRO (2024)",
+  title: "Miro end-of-year recap",
+  description: "An end-of-year campaign that engaged more than 13M users globally.",
+  cta: "🔑 Reach out for access",
+  image: coverRecap,
+  href: "#",
+  locked: true,
+  bg: "#F5C842"
+},
+{
+  tag: "#0 to 1",
+  company: "INFUSEAI (2022)",
+  title: "A Github for Data Scientists",
+  description: "We built a platform that enables Data Scientists to track their machine learning models and all changes made by the team.",
+  cta: "🔑 Reach out for access",
+  image: coverDatascience,
+  href: "#",
+  locked: true,
+  bg: "#A8C5B5"
+},
+{
+  tag: "#0 to 1",
+  company: "ORGANAISE (2021)",
+  title: "App for managing meetings",
+  description: "I co-founded and developed the OrganAI.se app, which uses AI to simplify scheduling meetings between people (prior to the release of ChatGPT).",
+  cta: "🔑 Reach out for access",
+  image: coverOrganai,
+  href: "#",
+  locked: true,
+  bg: "#B8C4E0"
+}];
+
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { delay: i * 0.12, duration: 0.5 },
-  }),
+    transition: { delay: i * 0.12, duration: 0.5 }
+  })
 };
 
 export default function CaseStudiesSection() {
@@ -71,9 +71,9 @@ export default function CaseStudiesSection() {
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.5 }}
-      >
-        <span className="inline-block bg-[#D4A090] text-white text-sm font-semibold px-5 py-2 rounded-xl mb-5">
+        transition={{ duration: 0.5 }}>
+        
+        <span className="inline-block text-white text-sm font-semibold px-5 py-2 rounded-xl mb-5 bg-teal-800">
           Selected work
         </span>
         <h2 className="font-serif text-teal-dark text-5xl md:text-6xl mt-2 mb-5">Case study</h2>
@@ -85,13 +85,13 @@ export default function CaseStudiesSection() {
       {/* Cards */}
       <div className="flex flex-col gap-5">
         {caseStudies.map((study, i) => {
-          const inner = (
-            <div className="flex flex-col md:flex-row min-h-[280px] rounded-2xl overflow-hidden">
+          const inner =
+          <div className="flex flex-col md:flex-row min-h-[280px] rounded-2xl overflow-hidden">
               {/* Left: text content on colored bg */}
               <div
-                className="flex flex-col justify-between p-8 md:w-[45%] flex-shrink-0"
-                style={{ background: study.bg }}
-              >
+              className="flex flex-col justify-between p-8 md:w-[45%] flex-shrink-0"
+              style={{ background: study.bg }}>
+              
                 <div>
                   <div className="flex items-center gap-2 mb-6 flex-wrap">
                     <span className="text-xs font-medium bg-white/40 text-[#1a1a1a] px-3 py-1 rounded-full">
@@ -108,32 +108,32 @@ export default function CaseStudiesSection() {
                     {study.description}
                   </p>
                 </div>
-                {!study.locked && (
-                  <span className="text-xs font-bold tracking-widest uppercase text-[#1a1a1a] flex items-center gap-1 group-hover:gap-2 transition-all">
+                {!study.locked &&
+              <span className="text-xs font-bold tracking-widest uppercase text-[#1a1a1a] flex items-center gap-1 group-hover:gap-2 transition-all">
                     {study.cta} →
                   </span>
-                )}
-                {study.locked && (
-                  <span className="text-xs font-medium text-[#1a1a1a]/60">
+              }
+                {study.locked &&
+              <span className="text-xs font-medium text-[#1a1a1a]/60">
                     {study.cta}
                   </span>
-                )}
+              }
               </div>
 
               {/* Right: mockup image */}
               <div
-                className="flex-1 flex items-end justify-end overflow-hidden relative"
-                style={{ background: study.bg }}
-              >
+              className="flex-1 flex items-end justify-end overflow-hidden relative"
+              style={{ background: study.bg }}>
+              
                 <img
-                  src={study.image}
-                  alt={study.title}
-                  className="w-full h-full object-cover object-left-top transition-transform duration-500 group-hover:scale-[1.03]"
-                  style={{ borderRadius: "12px 12px 12px 0", marginRight: "0", marginBottom: "0", maxHeight: "320px", objectFit: "cover" }}
-                />
+                src={study.image}
+                alt={study.title}
+                className="w-full h-full object-cover object-left-top transition-transform duration-500 group-hover:scale-[1.03]"
+                style={{ borderRadius: "12px 12px 12px 0", marginRight: "0", marginBottom: "0", maxHeight: "320px", objectFit: "cover" }} />
+              
               </div>
-            </div>
-          );
+            </div>;
+
 
           return (
             <motion.div
@@ -144,21 +144,21 @@ export default function CaseStudiesSection() {
               whileInView="visible"
               viewport={{ once: true }}
               whileHover={!study.locked ? { y: -4, transition: { duration: 0.2 } } : {}}
-              className="group"
-            >
-              {!study.locked ? (
-                <Link to={study.href} className="block rounded-2xl overflow-hidden shadow-sm">
+              className="group">
+              
+              {!study.locked ?
+              <Link to={study.href} className="block rounded-2xl overflow-hidden shadow-sm">
                   {inner}
-                </Link>
-              ) : (
-                <div className="block rounded-2xl overflow-hidden shadow-sm opacity-90 cursor-default">
+                </Link> :
+
+              <div className="block rounded-2xl overflow-hidden shadow-sm opacity-90 cursor-default">
                   {inner}
                 </div>
-              )}
-            </motion.div>
-          );
+              }
+            </motion.div>);
+
         })}
       </div>
-    </section>
-  );
+    </section>);
+
 }
