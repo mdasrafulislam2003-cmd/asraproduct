@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 import avatarWarwick from "@/assets/avatar-warwick.jpg";
+import avatarSaurabh from "@/assets/avatar-saurabh.jpg";
 
 function TestimonialQuote({ quote }: { quote: string }) {
   const [expanded, setExpanded] = useState(false);
@@ -24,7 +25,8 @@ const testimonials = [
   name: "Saurabh Swami",
   title: "Chief of Design, India Index",
   initials: "SS",
-  color: "#D4A090"
+  color: "#D4A090",
+  avatar: avatarSaurabh
 },
 {
   quote: "Grateful to have worked with Asra during a key phase of India Index's product development.\nHe played a pivotal role in reimagining our visual identity—turning complex sourcing workflows into intuitive, high-impact design. A talented designer with real product instincts.",
