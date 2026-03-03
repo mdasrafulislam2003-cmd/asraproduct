@@ -74,7 +74,7 @@ export default function HeroSection() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.55 }}>
 
-            Product Designer with 5+ years of experience building SaaS and AI products for startups. Currently leading Design{" "}
+            Sr. Product Designer with 5+ years of experience building SaaS and AI products for startups. Currently leading Design{" "}
             <a href="https://indiaindex.com/" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 text-foreground hover:opacity-70 transition-opacity">
               @IndiaIndex.com
             </a>
