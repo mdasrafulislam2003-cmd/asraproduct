@@ -47,19 +47,17 @@ export default function HeroSection() {
 
           {/* Headline */}
           <motion.h1
-            className="font-serif text-teal-dark text-5xl md:text-7xl leading-tight mb-2"
+            className="font-serif text-teal-dark text-5xl md:text-7xl leading-tight mb-2 flex items-center gap-3 flex-wrap justify-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.35 }}>Hey, this is Asra.
-
-
+            transition={{ delay: 0.35 }}>
+            <span>Hey, this is Asra.</span>
           </motion.h1>
           <motion.div
             className="font-serif text-teal-dark text-5xl md:text-7xl leading-tight mb-8 flex items-center gap-3 flex-wrap justify-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.45 }}>
-
             <span>A Sr. Product Designer.</span>
             <motion.img
               src={shibaImg}
@@ -67,7 +65,6 @@ export default function HeroSection() {
               className="w-14 h-14 md:w-18 md:h-18 inline-block"
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }} />
-
           </motion.div>
 
           {/* Subtitle */}
