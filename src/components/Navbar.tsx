@@ -6,7 +6,7 @@ const navLinks = [
 { label: "Work", href: "#case-study-section", active: true },
 { label: "About Me", href: "#side-projects" },
 { label: "Linkedin", href: "https://www.linkedin.com/in/asra2003/", external: true },
-{ label: "Dribbble ↗", href: "https://dribbble.com/asraful1234", external: true },
+{ label: "Dribbble", href: "https://dribbble.com/asraful1234", external: true },
 { label: "Read.CV ↗", href: "https://drive.google.com/file/d/1w1gzvID9LRlNR1bk3LkTIkj3w_ujaWTN/view", external: true }];
 
 
