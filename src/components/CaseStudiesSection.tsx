@@ -66,7 +66,7 @@ export default function CaseStudiesSection() {
         <span className="inline-block text-white text-sm font-semibold px-5 py-2 rounded-xl mb-5 bg-teal-800" style={{ rotate: "355deg" }}>
           Selected work
         </span>
-        <h2 className="font-serif text-teal-dark text-5xl md:text-6xl mt-2 mb-5">Case study</h2>
+        <h2 className="font-serif text-teal-dark text-5xl md:text-6xl mt-2 mb-5">Case studies</h2>
         <p className="text-foreground/70 max-w-xl mx-auto text-lg font-normal leading-relaxed">Here are some examples of how I combine user research, AI-assisted design, and a growth-driven mindset to craft impactful SaaS products. 
 
         </p>
