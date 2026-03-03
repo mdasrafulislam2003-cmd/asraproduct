@@ -1,4 +1,19 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
+
+function TestimonialQuote({ quote }: { quote: string }) {
+  const [expanded, setExpanded] = useState(false);
+  return (
+    <p className="text-foreground text-sm leading-relaxed font-normal flex-1 -mt-4">
+      <span className={`${!expanded ? "line-clamp-5" : ""}`}>{quote}</span>
+      <button
+        onClick={() => setExpanded(!expanded)}
+        className="ml-1 text-muted-foreground hover:text-foreground transition-colors text-xs font-medium underline underline-offset-2">
+        {expanded ? "Collapse" : "Expand"}
+      </button>
+    </p>
+  );
+}
 
 const testimonials = [
 {
@@ -59,9 +74,7 @@ work with Asra?</h2>
           
             {/* Quote mark */}
             <span className="text-4xl leading-none font-serif text-muted-foreground/30 select-none">"</span>
-            <p className="text-foreground text-sm leading-relaxed font-normal flex-1 -mt-4">
-              {t.quote}
-            </p>
+            <TestimonialQuote quote={t.quote} />
             <div className="flex items-center gap-3 mt-2">
               <div
                 className="w-10 h-10 rounded-full flex items-center justify-center text-xs font-bold text-[#1a1a1a] flex-shrink-0"
