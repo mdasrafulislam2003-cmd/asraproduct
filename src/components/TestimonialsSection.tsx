@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import avatarWarwick from "@/assets/avatar-warwick.jpg";
 
 function TestimonialQuote({ quote }: { quote: string }) {
   const [expanded, setExpanded] = useState(false);
@@ -37,7 +38,8 @@ const testimonials = [
   name: "Warwick Molloy",
   title: "Full Stack Infrastructure Engineer, AFCA",
   initials: "WM",
-  color: "#A8C5B5"
+  color: "#A8C5B5",
+  avatar: avatarWarwick
 },
 {
   quote: "I collaborated with Asraful on the same project and I can honestly say that he's one of the most passionate, knowledgeable, dedicated, respectful and kind-hearted colleagues I have ever met. He's a young man with a bright mind that can solve any business problem. Asraful is proficient in being able to use the observations with an innovative approach to solve business problems and structure UX Research utilising a mix of design research methods. If you are exploring a young bright-minded designer for your next design problem, then I highly recommend Asraful!",
@@ -78,12 +80,19 @@ work with Asra?</h2>
             <span className="text-4xl leading-none font-serif text-muted-foreground/30 select-none">"</span>
             <TestimonialQuote quote={t.quote} />
             <div className="flex items-center gap-3 mt-2">
-              <div
-                className="w-10 h-10 rounded-full flex items-center justify-center text-xs font-bold text-[#1a1a1a] flex-shrink-0"
-                style={{ background: t.color }}>
-              
-                {t.initials}
-              </div>
+              {t.avatar ? (
+                <img
+                  src={t.avatar}
+                  alt={t.name}
+                  className="w-10 h-10 rounded-full object-cover flex-shrink-0"
+                />
+              ) : (
+                <div
+                  className="w-10 h-10 rounded-full flex items-center justify-center text-xs font-bold text-[#1a1a1a] flex-shrink-0"
+                  style={{ background: t.color }}>
+                  {t.initials}
+                </div>
+              )}
               <div>
                 <p className="text-sm font-semibold text-foreground">{t.name}</p>
                 <p className="text-xs text-muted-foreground">{t.title}</p>
