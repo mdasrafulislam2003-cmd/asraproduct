@@ -55,7 +55,7 @@ export default function SideProjectsSection() {
         >
           <span className="text-muted-foreground text-sm font-medium uppercase tracking-widest">Fun</span>
           <h2 className="font-serif text-teal-dark text-3xl md:text-4xl mt-2 mb-3">Side projects</h2>
-          <p className="text-muted-foreground max-w-lg">
+          <p className="text-foreground max-w-lg">
             I am passionate about building products that solve everyday problems for people—it's what motivates me every day. Here are some of the recent apps I've developed.
           </p>
         </motion.div>
