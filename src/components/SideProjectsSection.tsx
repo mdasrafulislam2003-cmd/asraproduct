@@ -106,9 +106,9 @@ export default function SideProjectsSection() {
           
           <a
             href="#"
-            className="inline-block border border-border text-foreground px-6 py-2.5 rounded-full text-sm font-medium hover:bg-card transition-colors">
+            className="inline-block border border-border text-foreground px-6 py-2.5 rounded-full text-sm font-medium hover:bg-green-800 hover:text-white hover:border-green-800 transition-colors">
             
-            Explore more apps →
+            Find me on Dribbble →
           </a>
         </motion.div>
       </div>
