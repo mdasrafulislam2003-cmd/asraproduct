@@ -73,7 +73,7 @@ export default function CaseStudiesSection() {
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}>
         
-        <span className="inline-block text-white text-sm font-semibold px-5 py-2 rounded-xl mb-5 bg-teal-800 rotate-[-45deg]">
+        <span className="inline-block text-white text-sm font-semibold px-5 py-2 rounded-xl mb-5 bg-teal-800" style={{ rotate: "120deg" }}>
           Selected work
         </span>
         <h2 className="font-serif text-teal-dark text-5xl md:text-6xl mt-2 mb-5">Case study</h2>
