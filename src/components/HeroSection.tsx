@@ -69,7 +69,7 @@ export default function HeroSection() {
 
           {/* Subtitle */}
           <motion.p
-            className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto"
+            className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto font-normal"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.55 }}>
