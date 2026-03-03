@@ -20,7 +20,7 @@ export default function Footer() {
             <p className="text-muted-foreground text-xs uppercase tracking-widest mb-4">Links</p>
             <div className="space-y-2">
               {[
-                { label: "Linkedin", href: "https://www.linkedin.com/in/hbshih" },
+                { label: "Linkedin", href: "https://www.linkedin.com/in/asra2003/" },
                 { label: "Bento", href: "https://bento.me/hbshih" },
                 { label: "Read.CV", href: "https://read.cv/benshih" },
                 { label: "Github", href: "https://github.com/hbshih" },
