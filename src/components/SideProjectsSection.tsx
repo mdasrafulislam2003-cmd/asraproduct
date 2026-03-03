@@ -105,7 +105,7 @@ export default function SideProjectsSection() {
           viewport={{ once: true }}>
           
           <a
-            href="#"
+            href="https://dribbble.com/asraful1234"
             className="inline-block border border-border text-foreground px-6 py-2.5 rounded-full text-sm font-medium hover:bg-green-800 hover:text-white hover:border-green-800 transition-colors">
             
             Find me on Dribbble →
