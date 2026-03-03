@@ -114,7 +114,7 @@ export default function Navbar() {
                 }}
                 className={`px-5 py-3 text-sm font-medium transition-all duration-200 ${
                   activeSection === link.label
-                    ? "nav-pill-active rounded-none"
+                    ? "nav-pill-active rounded-none mx-2"
                     : "text-foreground/70 hover:text-foreground hover:bg-muted/50"
                 }`}
               >
