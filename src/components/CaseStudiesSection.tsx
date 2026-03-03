@@ -39,8 +39,8 @@ const caseStudies = [
   href: "#",
   locked: true,
   bg: "#A8C5B5"
-},
-];
+}];
+
 
 
 const fadeUp = {
@@ -67,8 +67,8 @@ export default function CaseStudiesSection() {
           Selected work
         </span>
         <h2 className="font-serif text-teal-dark text-5xl md:text-6xl mt-2 mb-5">Case study</h2>
-        <p className="text-foreground/70 max-w-xl mx-auto text-lg font-normal leading-relaxed">
-          Here are some examples of how I combine workshop, data and a growth mindset to design products.
+        <p className="text-foreground/70 max-w-xl mx-auto text-lg font-normal leading-relaxed">Here are some examples of how I combine user research, AI-assisted design, and a growth-driven mindset to craft impactful SaaS products. 
+
         </p>
       </motion.div>
 
