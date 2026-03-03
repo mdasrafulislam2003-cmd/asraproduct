@@ -44,7 +44,7 @@ export default function TestimonialsSection() {
         <h2 className="font-serif text-teal-dark text-3xl md:text-4xl mt-2 mb-3">How’s it like to 
 work with Asra?</h2>
         <p className="text-foreground max-w-lg font-normal not-italic">
-          What the people I've worked with say about collaborating with me.
+          Beyond the work, I care about the people I build with — the best work happens when relationships come first.
         </p>
       </motion.div>
 
