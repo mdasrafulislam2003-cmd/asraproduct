@@ -77,7 +77,7 @@ export default function CaseStudiesSection() {
       </motion.div>
 
       {/* Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 gap-6">
         {caseStudies.map((study, i) => {
           const CardWrapper = ({ children }: { children: React.ReactNode }) =>
             !study.locked ? (
@@ -101,31 +101,33 @@ export default function CaseStudiesSection() {
               whileHover={!study.locked ? { y: -6, transition: { duration: 0.2 } } : {}}
             >
               <CardWrapper>
-                {/* Image */}
-                <div className="relative h-48 overflow-hidden">
-                  <img
-                    src={study.image}
-                    alt={study.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  {/* Arrow */}
-                  {!study.locked && (
-                    <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-background/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-2 group-hover:translate-x-0">
-                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path d="M3 13L13 3M13 3H6M13 3V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </div>
-                  )}
-                </div>
-                {/* Content */}
-                <div className="p-6">
-                  <span className="text-xs font-medium text-muted-foreground bg-secondary px-2 py-1 rounded-full">{study.tag}</span>
-                  <p className="text-sm font-semibold text-muted-foreground mt-3 mb-1">{study.company}</p>
-                  <h3 className="font-serif text-foreground text-xl mb-2">{study.title}</h3>
-                  <p className="text-muted-foreground text-sm mb-4 leading-relaxed">{study.description}</p>
-                  <span className="text-sm font-medium text-foreground underline underline-offset-2 group-hover:opacity-70 transition-opacity">
-                    {study.cta} →
-                  </span>
+                <div className="flex flex-col md:flex-row">
+                  {/* Image */}
+                  <div className="relative md:w-80 h-56 md:h-auto flex-shrink-0 overflow-hidden">
+                    <img
+                      src={study.image}
+                      alt={study.title}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    {/* Arrow */}
+                    {!study.locked && (
+                      <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-background/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-2 group-hover:translate-x-0">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                          <path d="M3 13L13 3M13 3H6M13 3V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                      </div>
+                    )}
+                  </div>
+                  {/* Content */}
+                  <div className="p-6 flex flex-col justify-center">
+                    <span className="text-xs font-medium text-muted-foreground bg-secondary px-2 py-1 rounded-full w-fit">{study.tag}</span>
+                    <p className="text-sm font-semibold text-muted-foreground mt-3 mb-1">{study.company}</p>
+                    <h3 className="font-serif text-foreground text-2xl mb-2">{study.title}</h3>
+                    <p className="text-muted-foreground text-sm mb-4 leading-relaxed max-w-lg">{study.description}</p>
+                    <span className="text-sm font-medium text-foreground underline underline-offset-2 group-hover:opacity-70 transition-opacity">
+                      {study.cta} →
+                    </span>
+                  </div>
                 </div>
               </CardWrapper>
             </motion.div>
