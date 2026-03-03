@@ -45,8 +45,8 @@ const sideProjects = [
 
 export default function SideProjectsSection() {
   return (
-    <section id="side-projects" className="bg-secondary/30 px-6 py-20">
-      <div className="max-w-5xl mx-auto">
+    <section id="side-projects" className="bg-secondary/30 px-5 py-20">
+      <div className="max-w-[940px] mx-auto">
         <motion.div
           className="mb-12"
           initial={{ opacity: 0, y: 20 }}

@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="bg-teal-dark px-6 py-24">
-      <div className="max-w-3xl mx-auto text-center">
+    <section id="about" className="bg-teal-dark px-5 py-24">
+      <div className="max-w-[940px] mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

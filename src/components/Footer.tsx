@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <footer className="bg-background border-t border-border px-6 py-16">
-      <div className="max-w-5xl mx-auto">
+    <footer className="bg-background border-t border-border px-5 py-16">
+      <div className="max-w-[940px] mx-auto">
         {/* Footer columns */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
           <div>
