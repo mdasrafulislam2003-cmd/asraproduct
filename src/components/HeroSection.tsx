@@ -51,14 +51,14 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.35 }}>
-            <span>Hey, this is Asra.</span>
+            <span className="text-teal-800">Hey, this is Asra.</span>
           </motion.h1>
           <motion.div
             className="font-serif text-teal-dark text-5xl md:text-7xl leading-tight mb-8 flex items-center gap-3 flex-wrap justify-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.45 }}>
-            <span>A Sr. Product Designer.</span>
+            <span className="text-teal-800">A Sr. Product Designer.</span>
             <motion.img
               src={shibaImg}
               alt="Shiba Inu"
