@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   :root {
     /* benshih.design color palette */
