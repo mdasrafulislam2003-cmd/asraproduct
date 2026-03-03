@@ -20,30 +20,30 @@ function TestimonialQuote({ quote }: { quote: string }) {
 const testimonials = [
 {
   quote: "Asra is extremely dedicated and diligent in his work. His professionalism is impeccable. Asra is extremely goal oriented and efficient in his work,. Asra doesn't miss a deadline and often exceeds expectations when given a clear picture of things. He is also very socially aware and a fun coworker that is an absolute pleasure to work with. Asra enunciates his ideas clearly and confidently, and is a valuable asset to any product team. On our goal of rebranding through new blog pages, Asra took ownership of the complete UX journey and identified gaps in the existing flow. He was able to clearly document all the use cases for the dev team. He was able to not only design the solution but also make all the stakeholders understand it clearly. He worked overtime to get the solution working with the developers, and meticulously combed through the data to suggest additional improvements. I'm sure Asra will be a great asset to any organisation that takes product improvements seriously. I am confident in recommending him to his future clients.",
-  name: "Sarah Chen",
-  title: "Head of Product, Lokalise",
-  initials: "SC",
+  name: "Saurabh Swami",
+  title: "Chief of Design, India Index",
+  initials: "SS",
   color: "#D4A090"
 },
 {
   quote: "Grateful to have worked with Asra during a key phase of India Index's product development.\nHe played a pivotal role in reimagining our visual identity—turning complex sourcing workflows into intuitive, high-impact design. A talented designer with real product instincts.",
-  name: "James Okafor",
-  title: "CPO, Miro",
-  initials: "JO",
+  name: "Samir N. Kapadia",
+  title: "CEO, India Index",
+  initials: "SK",
   color: "#F5C842"
 },
 {
   quote: "With design, active learning is a sign of potential for success. You learn from what customers / users want and how they need to work. You need to run experiments and learn what works over time for different types of users and user groups. You need to learn what makes products a success and you need to learn from those around you because things are constantly changing. During the UX Design Wizard project, Asraful demonstrated he is an active learner and quiet achiever. With design, active learning is a sign of potential for success. You learn from what customers / users want and how they need to work. You need to run experiments and learn what works over time for different types of users and user groups. You need to learn what makes products a success and you need to learn from those around you because things are constantly changing. During the UX Design Wizard project, Asraful demonstrated he is an active learner and quiet achiever.",
-  name: "Priya Menon",
-  title: "CEO, InfuseAI",
-  initials: "PM",
+  name: "Warwick Molloy",
+  title: "Full Stack Infrastructure Engineer, AFCA",
+  initials: "WM",
   color: "#A8C5B5"
 },
 {
-  quote: "I collaborated with Asraful on the same internship project and I can honestly say that he's one of the most passionate, knowledgeable, dedicated, respectful and kind-hearted colleagues I have ever met. He's a young man with a bright mind that can solve any business problem. Asraful is proficient in being able to use the observations with an innovative approach to solve business problems and structure UX Research utilising a mix of design research methods. If you are exploring a young bright-minded designer for your next design problem, then I highly recommend Asraful!",
-  name: "Lucas Berg",
-  title: "VP Design, OrganAI",
-  initials: "LB",
+  quote: "I collaborated with Asraful on the same project and I can honestly say that he's one of the most passionate, knowledgeable, dedicated, respectful and kind-hearted colleagues I have ever met. He's a young man with a bright mind that can solve any business problem. Asraful is proficient in being able to use the observations with an innovative approach to solve business problems and structure UX Research utilising a mix of design research methods. If you are exploring a young bright-minded designer for your next design problem, then I highly recommend Asraful!",
+  name: "Sahil Samani",
+  title: "UX Intern, UXDW",
+  initials: "SS",
   color: "#B8C4E0"
 }];
 
