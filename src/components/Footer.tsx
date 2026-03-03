@@ -34,9 +34,9 @@ export default function Footer() {
           </div>
           <div>
             <p className="text-muted-foreground text-xs uppercase tracking-widest mb-4">Contact</p>
-            <a href="mailto:hello@benshih.design"
+          <a href="mailto:Asrauxdesign@gmail.com"
               className="text-sm text-foreground hover:text-muted-foreground transition-colors">
-              hello@benshih.design
+              Asrauxdesign@gmail.com
             </a>
           </div>
         </div>
