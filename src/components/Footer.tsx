@@ -23,7 +23,7 @@ export default function Footer() {
                 { label: "Linkedin", href: "https://www.linkedin.com/in/asra2003/" },
                 { label: "Dribbble", href: "https://dribbble.com/asraful1234" },
                 { label: "Read.CV", href: "https://drive.google.com/file/d/1w1gzvID9LRlNR1bk3LkTIkj3w_ujaWTN/view" },
-                { label: "Github", href: "https://github.com/hbshih" },
+                { label: "Medium", href: "https://hbshih.medium.com/" },
               ].map((link) => (
                 <a key={link.label} href={link.href} target="_blank" rel="noopener noreferrer"
                   className="block text-sm text-foreground hover:text-muted-foreground transition-colors">
