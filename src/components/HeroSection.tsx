@@ -58,7 +58,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.45 }}>
-            <span className="text-teal-800">A Sr. Product Designer.</span>
+            <span className="text-teal-800">A Product Designer.</span>
             <motion.img
               src={shibaImg}
               alt="Shiba Inu"
@@ -95,8 +95,8 @@ export default function HeroSection() {
             </a>
             <div className="flex items-center gap-2 text-muted-foreground text-sm">
               <svg width="24" height="44" viewBox="0 0 24 44" fill="none">
-                <path d="M12 2 C20 6, 4 12, 14 18 C22 22, 4 28, 12 34 C14 36, 12 38, 12 40" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" fill="none"/>
-                <path d="M6 36 L12 44 L18 36" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+                <path d="M12 2 C20 6, 4 12, 14 18 C22 22, 4 28, 12 34 C14 36, 12 38, 12 40" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" fill="none" />
+                <path d="M6 36 L12 44 L18 36" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none" />
               </svg>
               <span className="italic text-sm leading-snug">(In case you are tired of<br />reading portfolio...)</span>
             </div>
