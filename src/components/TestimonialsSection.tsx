@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import avatarWarwick from "@/assets/avatar-warwick.jpg";
 import avatarSaurabh from "@/assets/avatar-saurabh.jpg";
+import avatarSamir from "@/assets/avatar-samir.jpg";
 
 function TestimonialQuote({ quote }: { quote: string }) {
   const [expanded, setExpanded] = useState(false);
@@ -33,7 +34,8 @@ const testimonials = [
   name: "Samir N. Kapadia",
   title: "CEO, India Index",
   initials: "SK",
-  color: "#F5C842"
+  color: "#F5C842",
+  avatar: avatarSamir
 },
 {
   quote: "With design, active learning is a sign of potential for success. You learn from what customers / users want and how they need to work. You need to run experiments and learn what works over time for different types of users and user groups. You need to learn what makes products a success and you need to learn from those around you because things are constantly changing. During the UX Design Wizard project, Asraful demonstrated he is an active learner and quiet achiever. With design, active learning is a sign of potential for success. You learn from what customers / users want and how they need to work. You need to run experiments and learn what works over time for different types of users and user groups. You need to learn what makes products a success and you need to learn from those around you because things are constantly changing. During the UX Design Wizard project, Asraful demonstrated he is an active learner and quiet achiever.",
