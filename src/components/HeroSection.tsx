@@ -80,6 +80,14 @@ export default function HeroSection() {
             </a>
           </motion.p>
 
+          <motion.p
+            className="text-muted-foreground/60 text-sm mb-8 max-w-xl mx-auto font-normal"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6 }}>
+            Industry experience: E-commerce, Procurement, Sales, Sports Management, Facility, Fintech, Blockchain
+          </motion.p>
+
           {/* CTA row */}
           <motion.div
             className="flex items-center justify-center gap-8 flex-wrap"
