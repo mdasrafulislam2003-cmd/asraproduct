@@ -16,9 +16,9 @@ export default function AboutSection() {
           <p className="text-primary-foreground/70 text-lg mb-4 leading-relaxed">
             Designers are problem solvers at heart.
           </p>
-          <p className="text-primary-foreground/70 mb-4 leading-relaxed">
-            I truly believe that by leveraging our skills, we can make the world a better place.
-          </p>
+          
+
+          
           
 
 
