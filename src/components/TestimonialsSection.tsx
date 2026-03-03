@@ -77,6 +77,18 @@ work with Asra?</h2>
           </motion.div>
         )}
       </div>
+
+      <motion.div
+        className="mt-8 text-center"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}>
+        <a
+          href="#"
+          className="inline-block border border-border text-foreground px-6 py-2.5 rounded-full text-sm font-medium hover:bg-green-800 hover:text-white hover:border-green-800 transition-colors">
+          View on LinkedIn →
+        </a>
+      </motion.div>
     </section>);
 
 }
