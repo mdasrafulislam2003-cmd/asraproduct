@@ -58,7 +58,7 @@ const fadeUp = {
 
 export default function CaseStudiesSection() {
   return (
-    <section id="case-study-section" className="bg-background px-6 py-20 max-w-5xl mx-auto">
+    <section id="case-study-section" className="bg-background px-5 py-20 max-w-[940px] mx-auto">
       {/* Section Header */}
       <motion.div
         className="mb-12"
