@@ -67,15 +67,17 @@ export default function CaseStudiesSection() {
     <section id="case-study-section" className="bg-background px-5 py-20 max-w-[940px] mx-auto">
       {/* Section Header */}
       <motion.div
-        className="mb-12"
+        className="mb-12 text-center"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
       >
-        <span className="text-muted-foreground text-sm font-medium uppercase tracking-widest">Selected work</span>
-        <h2 className="font-serif text-teal-dark text-3xl md:text-4xl mt-2 mb-3">Case study</h2>
-        <p className="text-muted-foreground max-w-lg">
+        <span className="inline-block bg-[#D4A090] text-white text-sm font-semibold px-5 py-2 rounded-xl mb-5">
+          Selected work
+        </span>
+        <h2 className="font-serif text-teal-dark text-5xl md:text-6xl mt-2 mb-5">Case study</h2>
+        <p className="text-foreground/70 max-w-xl mx-auto text-lg font-normal leading-relaxed">
           Here are some examples of how I combine workshop, data and a growth mindset to design products.
         </p>
       </motion.div>
