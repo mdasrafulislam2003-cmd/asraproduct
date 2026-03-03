@@ -19,7 +19,7 @@ function TestimonialQuote({ quote }: { quote: string }) {
 
 const testimonials = [
 {
-  quote: "Asra is one of the most talented designers I've had the pleasure of working with. Her ability to combine data-driven thinking with beautiful design is rare and incredibly valuable. She consistently brings a thoughtful, user-first perspective that elevates every project she touches — I couldn't recommend her more highly.",
+  quote: "Asra is extremely dedicated and diligent in his work. His professionalism is impeccable. Asra is extremely goal oriented and efficient in his work,. Asra doesn't miss a deadline and often exceeds expectations when given a clear picture of things. He is also very socially aware and a fun coworker that is an absolute pleasure to work with. Asra enunciates his ideas clearly and confidently, and is a valuable asset to any product team. On our goal of rebranding through new blog pages, Asra took ownership of the complete UX journey and identified gaps in the existing flow. He was able to clearly document all the use cases for the dev team. He was able to not only design the solution but also make all the stakeholders understand it clearly. He worked overtime to get the solution working with the developers, and meticulously combed through the data to suggest additional improvements. I'm sure Asra will be a great asset to any organisation that takes product improvements seriously. I am confident in recommending him to his future clients.",
   name: "Sarah Chen",
   title: "Head of Product, Lokalise",
   initials: "SC",
