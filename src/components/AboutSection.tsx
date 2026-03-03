@@ -14,7 +14,7 @@ export default function AboutSection() {
             I enjoy designing for growth or any products that make the world a bit better.
           </h2>
           <p className="text-primary-foreground/70 text-lg mb-4 leading-relaxed">
-
+            Great products don't happen by accident. They're built by people who care deeply about solving the right problems. I care about building systems that genuinely improve how people work and think. If you're building something meaningful, I'd love to be part of it.
           </p>
           
 
