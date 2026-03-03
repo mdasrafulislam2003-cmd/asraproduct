@@ -41,9 +41,9 @@ export default function AboutSection() {
               href="#"
               className="border border-primary-foreground/40 text-primary-foreground px-7 py-3 rounded-full font-medium hover:bg-primary-foreground/10 transition-all"
               whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}>
-              
-              Learn more about me
+              whileTap={{ scale: 0.95 }}>Say ,"Hello" to me
+
+
             </motion.a>
           </div>
         </motion.div>
