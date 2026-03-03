@@ -81,7 +81,7 @@ export default function HeroSection() {
           </motion.p>
 
           <motion.p
-            className="text-muted-foreground text-sm mb-8 max-w-xl mx-auto font-normal"
+            className="text-muted-foreground text-sm mb-8 max-w-xl mx-auto font-normal underline underline-offset-2"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}>Industry experience: E-commerce, Procurement, Sales,  Sports Management, Facility, Fintech, Blockchain
