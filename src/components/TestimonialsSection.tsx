@@ -4,41 +4,43 @@ import { useState } from "react";
 function TestimonialQuote({ quote }: { quote: string }) {
   const [expanded, setExpanded] = useState(false);
   return (
-    <p className="text-foreground text-sm leading-relaxed font-normal flex-1 -mt-4">
-      <span className={`${!expanded ? "line-clamp-5" : ""}`}>{quote}</span>
+    <div className="flex flex-col gap-1 flex-1 -mt-4">
+      <p className={`text-foreground text-sm leading-relaxed font-normal ${!expanded ? "line-clamp-5" : ""}`}>
+        {quote}
+      </p>
       <button
         onClick={() => setExpanded(!expanded)}
-        className="ml-1 text-muted-foreground hover:text-foreground transition-colors text-xs font-medium underline underline-offset-2">
+        className="text-left text-muted-foreground hover:text-foreground transition-colors text-xs font-medium underline underline-offset-2 w-fit">
         {expanded ? "Collapse" : "Expand"}
       </button>
-    </p>
+    </div>
   );
 }
 
 const testimonials = [
 {
-  quote: "Asra is one of the most talented designers I've had the pleasure of working with. Her ability to combine data-driven thinking with beautiful design is rare and incredibly valuable.",
+  quote: "Asra is one of the most talented designers I've had the pleasure of working with. Her ability to combine data-driven thinking with beautiful design is rare and incredibly valuable. She consistently brings a thoughtful, user-first perspective that elevates every project she touches — I couldn't recommend her more highly.",
   name: "Sarah Chen",
   title: "Head of Product, Lokalise",
   initials: "SC",
   color: "#D4A090"
 },
 {
-  quote: "Working with Asra on our onboarding redesign was a game changer. She brought structure, creativity, and clear metrics that drove real business results.",
+  quote: "Working with Asra on our onboarding redesign was a game changer. She brought structure, creativity, and clear metrics that drove real business results. Her ability to balance aesthetic sensibility with strategic thinking is something I rarely see in a designer — she made the entire process seamless and the outcome spoke for itself.",
   name: "James Okafor",
   title: "CPO, Miro",
   initials: "JO",
   color: "#F5C842"
 },
 {
-  quote: "Asra has a unique ability to deeply understand user pain points and translate them into elegant, intuitive solutions. A truly exceptional product designer.",
+  quote: "Asra has a unique ability to deeply understand user pain points and translate them into elegant, intuitive solutions. A truly exceptional product designer. She led workshops, synthesised research, and delivered a design system that our whole team now relies on every single day.",
   name: "Priya Menon",
   title: "CEO, InfuseAI",
   initials: "PM",
   color: "#A8C5B5"
 },
 {
-  quote: "Her growth mindset and workshop facilitation skills made our team align faster and ship better products. I'd work with Asra again in a heartbeat.",
+  quote: "Her growth mindset and workshop facilitation skills made our team align faster and ship better products. I'd work with Asra again in a heartbeat. She brought clarity to ambiguous problems, gave the team confidence, and delivered work that was both beautiful and grounded in real user needs.",
   name: "Lucas Berg",
   title: "VP Design, OrganAI",
   initials: "LB",
