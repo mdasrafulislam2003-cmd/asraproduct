@@ -99,7 +99,7 @@ work with Asra?</h2>
               )}
               <div>
                 <p className="text-sm font-semibold text-foreground">{t.name}</p>
-                <p className="text-xs text-muted-foreground">{t.title}</p>
+                <p className="text-xs text-foreground">{t.title}</p>
               </div>
             </div>
           </motion.div>
