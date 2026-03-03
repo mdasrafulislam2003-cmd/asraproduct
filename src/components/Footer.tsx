@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <p className="text-muted-foreground text-xs uppercase tracking-widest mb-4">Portfolio</p>
             <div className="space-y-2">
-              {["Work", "Fun", "About me"].map((item) => (
+              {["Work", "About me"].map((item) => (
                 <a key={item} href="#" className="block text-sm text-foreground hover:text-muted-foreground transition-colors">
                   {item}
                 </a>
