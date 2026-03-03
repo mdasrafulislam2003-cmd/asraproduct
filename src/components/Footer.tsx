@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-border">
-          <p className="text-muted-foreground text-xs">© 2025 Ben Shih. All rights reserved.</p>
+          <p className="text-muted-foreground text-xs">© 2026 Asraful Islam. All rights reserved.</p>
         </div>
       </div>
     </footer>
