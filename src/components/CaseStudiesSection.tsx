@@ -1,4 +1,6 @@
+import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import coverOnboarding from "@/assets/cover-onboarding.jpg";
 import coverRecap from "@/assets/cover-recap.jpg";
 import coverDatascience from "@/assets/cover-datascience.jpg";
@@ -12,7 +14,7 @@ const caseStudies = [
     description: "An onboarding redesign that increased activation rate by 19% and sign-up rate by 41%",
     cta: "Read case study",
     image: coverOnboarding,
-    href: "#",
+    href: "/case-study/onboarding",
     locked: false,
   },
   {
@@ -76,44 +78,59 @@ export default function CaseStudiesSection() {
 
       {/* Cards Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {caseStudies.map((study, i) => (
-          <motion.a
-            key={study.title}
-            href={study.href}
-            custom={i}
-            variants={fadeUp}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            whileHover={{ y: -6, transition: { duration: 0.2 } }}
-            className="group block bg-card rounded-2xl border border-border overflow-hidden cursor-pointer"
-          >
-            {/* Image */}
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src={study.image}
-                alt={study.title}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-              {/* Arrow */}
-              <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-background/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-2 group-hover:translate-x-0">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <path d="M3 13L13 3M13 3H6M13 3V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+        {caseStudies.map((study, i) => {
+          const CardWrapper = ({ children }: { children: React.ReactNode }) =>
+            !study.locked ? (
+              <Link to={study.href} className="group block bg-card rounded-2xl border border-border overflow-hidden cursor-pointer">
+                {children}
+              </Link>
+            ) : (
+              <div className="group block bg-card rounded-2xl border border-border overflow-hidden cursor-default opacity-80">
+                {children}
               </div>
-            </div>
-            {/* Content */}
-            <div className="p-6">
-              <span className="text-xs font-medium text-muted-foreground bg-secondary px-2 py-1 rounded-full">{study.tag}</span>
-              <p className="text-sm font-semibold text-muted-foreground mt-3 mb-1">{study.company}</p>
-              <h3 className="font-serif text-foreground text-xl mb-2">{study.title}</h3>
-              <p className="text-muted-foreground text-sm mb-4 leading-relaxed">{study.description}</p>
-              <span className="text-sm font-medium text-foreground underline underline-offset-2 group-hover:opacity-70 transition-opacity">
-                {study.cta} →
-              </span>
-            </div>
-          </motion.a>
-        ))}
+            );
+
+          return (
+            <motion.div
+              key={study.title}
+              custom={i}
+              variants={fadeUp}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              whileHover={!study.locked ? { y: -6, transition: { duration: 0.2 } } : {}}
+            >
+              <CardWrapper>
+                {/* Image */}
+                <div className="relative h-48 overflow-hidden">
+                  <img
+                    src={study.image}
+                    alt={study.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  {/* Arrow */}
+                  {!study.locked && (
+                    <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-background/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-200 translate-x-2 group-hover:translate-x-0">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M3 13L13 3M13 3H6M13 3V10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </div>
+                  )}
+                </div>
+                {/* Content */}
+                <div className="p-6">
+                  <span className="text-xs font-medium text-muted-foreground bg-secondary px-2 py-1 rounded-full">{study.tag}</span>
+                  <p className="text-sm font-semibold text-muted-foreground mt-3 mb-1">{study.company}</p>
+                  <h3 className="font-serif text-foreground text-xl mb-2">{study.title}</h3>
+                  <p className="text-muted-foreground text-sm mb-4 leading-relaxed">{study.description}</p>
+                  <span className="text-sm font-medium text-foreground underline underline-offset-2 group-hover:opacity-70 transition-opacity">
+                    {study.cta} →
+                  </span>
+                </div>
+              </CardWrapper>
+            </motion.div>
+          );
+        })}
       </div>
     </section>
   );
