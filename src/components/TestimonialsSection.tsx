@@ -84,7 +84,9 @@ work with Asra?</h2>
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/asra2003/details/recommendations/?detailScreenTabIndex=0"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-block border border-border text-foreground px-6 py-2.5 rounded-full text-sm font-medium hover:bg-green-800 hover:text-white hover:border-green-800 transition-colors">
           View on LinkedIn →
         </a>
