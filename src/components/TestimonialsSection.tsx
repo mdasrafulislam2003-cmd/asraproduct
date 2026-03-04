@@ -4,18 +4,20 @@ import avatarWarwick from "@/assets/avatar-warwick.jpg";
 import avatarSaurabh from "@/assets/avatar-saurabh.jpg";
 import avatarSamir from "@/assets/avatar-samir.jpg";
 
-function TestimonialQuote({ quote }: { quote: string }) {
+function TestimonialQuote({ quote, noExpand }: { quote: string; noExpand?: boolean }) {
   const [expanded, setExpanded] = useState(false);
   return (
     <div className="flex flex-col gap-1 flex-1 -mt-4">
-      <p className={`text-foreground text-sm leading-relaxed font-normal ${!expanded ? "line-clamp-5" : ""}`}>
+      <p className={`text-foreground text-sm leading-relaxed font-normal ${!noExpand && !expanded ? "line-clamp-5" : ""}`}>
         {quote}
       </p>
-      <button
-        onClick={() => setExpanded(!expanded)}
-        className="text-left text-muted-foreground hover:text-foreground transition-colors text-xs font-medium underline underline-offset-2 w-fit">
-        {expanded ? "Collapse" : "Expand"}
-      </button>
+      {!noExpand && (
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="text-left text-muted-foreground hover:text-foreground transition-colors text-xs font-medium underline underline-offset-2 w-fit">
+          {expanded ? "Collapse" : "Expand"}
+        </button>
+      )}
     </div>
   );
 }
@@ -35,7 +37,8 @@ const testimonials = [
   title: "CEO, India Index",
   initials: "SK",
   color: "#F5C842",
-  avatar: avatarSamir
+  avatar: avatarSamir,
+  noExpand: true
 },
 {
   quote: "With design, active learning is a sign of potential for success. You learn from what customers / users want and how they need to work. You need to run experiments and learn what works over time for different types of users and user groups. You need to learn what makes products a success and you need to learn from those around you because things are constantly changing. During the UX Design Wizard project, Asraful demonstrated he is an active learner and quiet achiever. With design, active learning is a sign of potential for success. You learn from what customers / users want and how they need to work. You need to run experiments and learn what works over time for different types of users and user groups. You need to learn what makes products a success and you need to learn from those around you because things are constantly changing. During the UX Design Wizard project, Asraful demonstrated he is an active learner and quiet achiever.",
@@ -82,7 +85,7 @@ work with Asra?</h2>
           
             {/* Quote mark */}
             <span className="text-4xl leading-none font-serif text-muted-foreground/30 select-none">"</span>
-            <TestimonialQuote quote={t.quote} />
+            <TestimonialQuote quote={t.quote} noExpand={t.noExpand} />
             <div className="flex items-center gap-3 mt-2">
               {t.avatar ? (
                 <img
