@@ -10,12 +10,22 @@ export default function AboutSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}>
           
-          <h2 className="font-serif text-primary-foreground text-4xl md:text-5xl leading-tight mb-6">
-            I enjoy designing for growth or any products that make the world a bit better.
+          <h2 className="font-serif text-primary-foreground text-4xl md:text-5xl leading-tight mb-6">I love designing for AI-driven products or any that make the world a bit better.
+
           </h2>
-          <p className="text-primary-foreground text-lg mb-4 leading-relaxed font-normal not-italic">Great products don't happen by accident. They're built by people who care deeply about solving the right problems. For me, I always care about building systems that genuinely improve how people work and think.<br /><br />
-            If you're building something meaningful, I'd love to be part of it. ❤️
+          <p className="text-primary-foreground text-lg mb-4 leading-relaxed font-normal not-italic">Great products don't happen by accident. They're built by people who care deeply about solving the right problems. For me, I always care about building systems that genuinely improve how people work and think.  
+
+
+If you're building something meaningful, I'd love to be part of it. ❤️<br /><br />
+            If you're building something meaningful, I'd love to be part of it.
           </p>
+          
+
+          
+          
+
+
+          
 
           <div className="flex items-center justify-center gap-4 flex-wrap">
             <motion.a href="https://www.linkedin.com/in/hbshih/"
@@ -32,9 +42,12 @@ export default function AboutSection() {
               className="border border-primary-foreground/40 text-primary-foreground px-7 py-3 rounded-full font-medium hover:bg-primary-foreground/10 transition-all"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}>👀 Curious? Let's Connect
+
+
             </motion.a>
           </div>
         </motion.div>
       </div>
     </section>);
+
 }
