@@ -195,9 +195,9 @@ export default function AboutMe() {
               </p>
             </motion.div>
             <motion.div {...fadeUp}>
-              <h3 className="font-serif text-foreground text-xl mb-3">I am — a community person.</h3>
+              <h3 className="font-serif text-foreground text-xl mb-3">I am — a bike person.</h3>
               <p className="text-muted-foreground text-sm font-normal leading-relaxed">
-                Meeting people and sharing knowledge is what gives me energy. I enjoy mentoring aspiring designers and contributing to design communities wherever I can.
+                Outside of work, I'm a passionate bike rider. Whether it's cruising through city streets, exploring trails on weekends, or just taking a quiet ride to clear my head, biking helps me stay energized and inspired. I love the sense of freedom, focus, and perspective it brings—kind of like designing a product, where every path has its challenges and rewards.
               </p>
             </motion.div>
           </div>
