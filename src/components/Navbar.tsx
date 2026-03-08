@@ -44,7 +44,7 @@ export default function Navbar() {
     >
       <div className="w-full max-w-[940px] mx-auto px-5 py-3 flex items-center justify-between">
         {/* Avatar */}
-        <a href="#" className="flex-shrink-0">
+        <a href="/" className="flex-shrink-0">
           <motion.div
             className="w-10 h-10 rounded-full overflow-hidden border-2 border-border"
             whileHover={{ scale: 1.08 }}
