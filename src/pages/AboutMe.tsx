@@ -43,10 +43,34 @@ export default function AboutMe() {
             </h1>
             <div className="space-y-5 text-muted-foreground text-base leading-relaxed font-normal">
               <p>
-                I grew up with the belief that engineering was the safest path to success. While I did earn a degree in Computer Science, I soon realized my true passion was in designing products that genuinely improve people's lives.
+                I grew up in a place where most people followed traditional paths like engineering, medicine, and similar careers. That never really excited me. I've always cared deeply about people like family, friends, and society at large. Even as a kid, I would use my phone and think about little ways to make it easier for myself and others, like moving an icon so it could be used with one hand, or imagining systems that could help blind people navigate technology with voice.
               </p>
               <p>
-                I started my journey as a designer through self-education and taking on freelance projects while working part-time. Over time, I found my place in multiple startups, where I played key roles in launching products from scratch across e-commerce, fintech, AI, and SaaS.
+                That curiosity and care led me to my first steps as a graphic designer, but I quickly realized something was missing—I wanted to connect with real people and solve real problems. UX caught my eye because it let me do exactly that: take empathy, research, and creativity and turn them into solutions that genuinely improve lives.
+              </p>
+              <p>
+                Fast forward 6+ years, and I've helped startups and SaaS companies across AI, sports, facility management, procurement, and enterprise B2B, turn complex product problems into measurable outcomes. At India Index, I helped streamline supplier-buyer workflows, improving onboarding speed by 70% and driving $100K+ in revenue in the first months. At Gyaan, I optimized deal management flows, increasing deal closure efficiency 5x and boosting engagement.
+              </p>
+              <p>
+                My sweet spot? Turning product friction into business impact. I specialize in discovery-led, research-driven design, focusing on strategic problem framing, user research, and cross-functional collaboration.
+              </p>
+              <p>
+                Here's what drives me:
+              </p>
+              <p>
+                <strong>Empathy first</strong> – people over pixels. I work closely with stakeholders and end-users to understand real needs. From shadowing procurement teams to mapping supplier workflows, I design with inclusion and context in mind.
+              </p>
+              <p>
+                <strong>Curious by default</strong> – keep asking until insights emerge. I dive deep into workflows, metrics, and competitor research to inform product decisions that drive measurable results.
+              </p>
+              <p>
+                <strong>Happy to challenge assumptions</strong> – data over trends. Whether it's designing AI-driven workflows or rethinking onboarding flows, I rely on evidence, not trends, to make impactful design decisions.
+              </p>
+              <p>
+                My approach: Innovate, don't imitate. Make products that actually work for users and the business.
+              </p>
+              <p>
+                I'm looking for fully remote senior UX/product strategy roles where discovery, research, and strategic thinking guide product decisions—not just high-fidelity UI work or design systems.
               </p>
               <p className="italic text-foreground">
                 I believe that great design is a result of collaboration and a series of experimentation.
