@@ -114,28 +114,6 @@ export default function AboutMe() {
         </div>
       </section>
 
-      {/* Education */}
-      <section className="px-5 pb-16">
-        <div className="max-w-[940px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr] gap-10">
-            <div />
-            <motion.div
-              className="bg-card rounded-2xl border border-border p-8"
-              {...fadeUp}
-            >
-              <h2 className="font-serif text-foreground text-2xl md:text-3xl mb-6">Education</h2>
-              <div className="space-y-5">
-                {education.map((e) => (
-                  <div key={e.degree}>
-                    <p className="text-foreground font-semibold text-base">{e.degree}</p>
-                    <p className="text-muted-foreground text-sm font-normal">{e.school}</p>
-                  </div>
-                ))}
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
 
       {/* Journey */}
       <section className="px-5 py-16">
