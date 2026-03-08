@@ -53,7 +53,7 @@ export default function AboutMe() {
               <p>
                 My sweet spot? Turning product friction into business impact. I specialize in discovery-led, research-driven design, focusing on strategic problem framing, user research, and cross-functional collaboration.
               </p>
-              <p>
+              <p className="font-bold">
                 Here's what drives me:
               </p>
               <p>
