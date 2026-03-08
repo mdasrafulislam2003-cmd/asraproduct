@@ -5,7 +5,7 @@ import avatarImg from "@/assets/avatar.jpg";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 const navLinks = [
-  { label: "Work", href: "#case-study-section", active: true },
+  { label: "Work", href: "/#case-study-section", active: true },
   { label: "About Me", href: "/about-me" },
   { label: "Linkedin", href: "https://www.linkedin.com/in/asra2003/", external: true },
   { label: "Dribbble", href: "https://dribbble.com/asraful1234", external: true },
