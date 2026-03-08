@@ -66,7 +66,7 @@ export default function AboutMe() {
                 <strong>Curious by default</strong> – keep asking until insights emerge. I love to dive deep into workflows, metrics, and competitor research to inform product decisions that drive measurable results.
               </p>
               <p>
-                <strong>Happy to challenge assumptions</strong> – data over trends. Whether it's designing AI-driven workflows or rethinking onboarding flows, I rely on evidence, not trends, to make impactful design decisions.
+                <strong>Happy to challenge assumptions</strong> – data over trends. Whether it's designing AI-driven workflows or rethinking onboarding flows, I always rely on evidence, not trends, to make impactful design decisions.
               </p>
               <p className="font-bold">
                 My approach: Innovate, don't imitate. Make products that actually work for users and the business.
