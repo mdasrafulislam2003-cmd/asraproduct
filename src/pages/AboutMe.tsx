@@ -48,7 +48,7 @@ export default function AboutMe() {
                 That curiosity and care led me to my first steps as a graphic designer, but I quickly realized something was missing as I wanted to connect with real people and solve real problems. In that time, UX caught my eye because it let me do exactly that which is taking empathy, research, and creativity and turn them into solutions that actually improve peoples lives.
               </p>
               <p>
-                Fast forward 6+ years, and I've helped startups and SaaS companies across AI, sports, facility management, procurement, and enterprise B2B, turn complex product problems into measurable outcomes. At India Index, I helped streamline supplier-buyer workflows, improving onboarding speed by 70% and driving $100K+ in revenue in the first months. At Gyaan, I optimized deal management flows, increasing deal closure efficiency 5x and boosting engagement.
+                Fast forward 6+ years, and I've helped startups and SaaS companies across AI, sports, facility management, procurement, and enterprise B2B, turn complex product problems into measurable outcomes. At India Index, I helped streamline supplier-buyer workflows, improving onboarding speed by 70% and driving $100K+ in revenue in the first few months. At Gyaan, I optimized deal management flows, increasing deal closure efficiency 5x and boosting engagement.
               </p>
               <p>
                 My sweet spot? Turning product friction into business impact. I specialize in discovery-led, research-driven design, focusing on strategic problem framing, user research, and cross-functional collaboration.
