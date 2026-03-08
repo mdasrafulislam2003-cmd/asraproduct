@@ -9,7 +9,7 @@ const navLinks = [
   { label: "About Me", href: "/about-me" },
   { label: "Linkedin", href: "https://www.linkedin.com/in/asra2003/", external: true },
   { label: "Dribbble", href: "https://dribbble.com/asraful1234", external: true },
-  { label: "Read.CV ↗", href: "https://drive.google.com/file/d/1w1gzvID9LRlNR1bk3LkTIkj3w_ujaWTN/view", external: true },
+  { label: "Read.CV ↗", href: "https://drive.google.com/file/d/1L921LziVJllUhESb7p149CcbZb-vKPbG/view", external: true },
 ];
 
 export default function Navbar() {
