@@ -194,7 +194,7 @@ export default function AboutMe() {
             <motion.div {...fadeUp}>
               <h3 className="font-serif text-foreground text-xl mb-3">I am — a lifelong learner.</h3>
               <p className="text-muted-foreground text-sm font-normal leading-relaxed">
-                I'm always exploring new tools, frameworks, and design methodologies. Whether it's diving into AI/ML concepts or picking up a new prototyping tool, staying curious keeps my work fresh and innovative.
+                I'm always exploring new tools, frameworks, and design methodologies. Whether it's diving into AI and machine learning concepts, experimenting with the latest prototyping tools, or discovering fresh approaches to problem-solving, staying curious keeps my work innovative, adaptable, and engaging.
               </p>
             </motion.div>
             <motion.div {...fadeUp}>
