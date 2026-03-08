@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import avatarImg from "@/assets/avatar.jpg";
-
+import bike1Img from "@/assets/bike-1.jpg";
+import bike2Img from "@/assets/bike-2.jpg";
 
 const journey = [
   { year: "Feb 2024 - Present", company: "India Index", role: "Sr. Product Designer", description: "Led end-to-end design for an AI-powered B2B procurement platform, driving 3x sales efficiency, 157% higher deal conversion, 322% increased user engagement, and building scalable design systems that reduced inconsistencies by 65%" },
