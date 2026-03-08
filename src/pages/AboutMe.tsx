@@ -3,9 +3,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import avatarImg from "@/assets/avatar.jpg";
 
-const education = [
-  { degree: "Bachelor, Computer Science", school: "Your University" },
-];
 
 const journey = [
   { year: "24 ~", company: "India Index", role: "Sr. Product Designer", description: "Leading design for AI-driven e-commerce sourcing experiences, rebranding, and growth initiatives." },
