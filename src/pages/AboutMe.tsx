@@ -41,7 +41,7 @@ export default function AboutMe() {
         <div className="max-w-[940px] mx-auto grid grid-cols-1 md:grid-cols-[1fr_auto] gap-10 items-start">
           <motion.div {...fadeUp}>
             <h1 className="font-serif text-foreground text-4xl md:text-6xl leading-tight mb-8">
-              A desire to make life a little easier for people is what drew me to design.
+              A desire to make life a little easier for people is what drew me to design....
             </h1>
             <div className="space-y-5 text-muted-foreground text-base leading-relaxed font-normal">
               <p>
