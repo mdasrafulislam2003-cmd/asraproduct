@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import avatarImg from "@/assets/avatar.jpg";
-import bike1Img from "@/assets/bike-1.jpg";
+import bike1Img from "@/assets/bike-1.png";
 import bike2Img from "@/assets/bike-2.jpg";
 import bike3Img from "@/assets/bike-3.jpg";
 import bike4Img from "@/assets/bike-4.jpg";
