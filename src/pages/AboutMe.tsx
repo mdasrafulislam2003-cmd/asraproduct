@@ -5,11 +5,11 @@ import avatarImg from "@/assets/avatar.jpg";
 
 
 const journey = [
-  { year: "24 ~", company: "India Index", role: "Sr. Product Designer", description: "Leading design for AI-driven e-commerce sourcing experiences, rebranding, and growth initiatives." },
-  { year: "23-24", company: "Gyaan", role: "Product Designer", description: "Optimized deal management flows, increasing deal closure efficiency 5x and boosting user engagement." },
-  { year: "22-23", company: "Freelance", role: "Product Designer", description: "Designed and shipped products from 0 to 1 across SaaS, fintech, and AI domains." },
-  { year: "21-22", company: "TechStartup", role: "UX Designer", description: "Led end-to-end design for B2B SaaS products, conducting user research and building design systems." },
-  { year: "20-21", company: "Design Studio", role: "UI/UX Designer", description: "Built user-centered design systems and led research-driven design across multiple product verticals." },
+  { year: "Feb 2024 - Present", company: "India Index", role: "Sr. Product Designer", description: "Led end-to-end design for an AI-powered B2B procurement platform, driving 3x sales efficiency, 157% higher deal conversion, 322% increased user engagement, and building scalable design systems that reduced inconsistencies by 65%" },
+  { year: "Feb 2022 - Mar 2025", company: "WePlay Sports", role: "Founding Product Designer", description: "Owned end-to-end design for a B2B sports and facility management platform and B2C player experience, leading research, building an atomic design system, and implementing AI-driven features that boosted user satisfaction 81% and cut design/dev time by 70%" },
+  { year: "Mar 2022 - Oct 2022", company: "Gyaan", role: "Mid-level Product Designer", description: "Designed and shipped 10+ Salesforce-integrated features on an agile team, mentoring juniors, optimizing deal workflows, and driving 200+ customers with $55K+ revenue while ensuring fully responsive, user-friendly experiences." },
+  { year: "Aug 2021 - Sep 2021", company: "Altalt", role: "UX Design intern", description: "Collaborated with stakeholders to define goals and constraints, designed the end-to-end UX and UI for CastingConnect and an anonymous QA MVP, built a custom design system, and presented solutions to peers and stakeholders." },
+  { year: "Aug 2021 - Sep 2021", company: "UXDW", role: "UX Design intern", description: "Collaborated with stakeholders to define requirements and roadmap, used research insights across three personas to create user-centered designs, sketches, and prototypes for an internship platform and landing page." },
 ];
 
 const skills = [
@@ -195,9 +195,9 @@ export default function AboutMe() {
               </p>
             </motion.div>
             <motion.div {...fadeUp}>
-              <h3 className="font-serif text-foreground text-xl mb-3">I am — a community person.</h3>
+              <h3 className="font-serif text-foreground text-xl mb-3">I am — a bike person.</h3>
               <p className="text-muted-foreground text-sm font-normal leading-relaxed">
-                Meeting people and sharing knowledge is what gives me energy. I enjoy mentoring aspiring designers and contributing to design communities wherever I can.
+                Outside of work, I'm a passionate bike rider. Whether it's cruising through city streets, exploring trails on weekends, or just taking a quiet ride to clear my head, biking helps me stay energized and inspired. I love the sense of freedom, focus, and perspective it brings—kind of like designing a product, where every path has its challenges and rewards.
               </p>
             </motion.div>
           </div>
