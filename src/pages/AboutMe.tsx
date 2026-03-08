@@ -75,7 +75,7 @@ export default function AboutMe() {
                 I'm looking for fully remote senior UX/product strategy roles where discovery, research, and strategic thinking guide product decisions—not just high-fidelity UI work or design systems.
               </p>
               <p className="italic text-foreground">
-                I believe that great design is a result of collaboration and a series of experimentation.
+                Finally, I believe that great design is a result of collaboration and a series of experimentation.
               </p>
             </div>
 
