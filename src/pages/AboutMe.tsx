@@ -42,7 +42,7 @@ export default function AboutMe() {
             </h1>
             <div className="space-y-5 text-muted-foreground text-base leading-relaxed font-normal">
               <p>
-                I grew up in a place where most people followed traditional paths like engineering, medicine, and similar careers. That never really excited me. I've always cared deeply about people like family, friends, and society at large. Even as a kid, I would use my phone and think about little ways to make it easier for myself and others, like moving an icon so it could be used with one hand, or imagining systems that could help blind people navigate technology with voice.
+                I grew up in a place where most people followed traditional paths like engineering, medicine, and similar careers which never really excited me. I've always cared deeply about people like family, friends, and society. Even as a kid, I would use my phone and think about little ways to make it easier for myself and others, like moving an icon so it could be used with one hand, or imagining systems that could help blind people navigate technology with voice.
               </p>
               <p>
                 That curiosity and care led me to my first steps as a graphic designer, but I quickly realized something was missing as I wanted to connect with real people and solve real problems. UX caught my eye because it let me do exactly that: take empathy, research, and creativity and turn them into solutions that genuinely improve lives.
