@@ -22,7 +22,7 @@ export default function Footer() {
               {[
                 { label: "Linkedin", href: "https://www.linkedin.com/in/asra2003/" },
                 { label: "Dribbble", href: "https://dribbble.com/asraful1234" },
-                { label: "Read.CV", href: "https://drive.google.com/file/d/1w1gzvID9LRlNR1bk3LkTIkj3w_ujaWTN/view" },
+                { label: "Read.CV", href: "https://drive.google.com/file/d/1L921LziVJllUhESb7p149CcbZb-vKPbG/view" },
                 { label: "Medium", href: "https://medium.com/@asraful03" },
               ].map((link) => (
                 <a key={link.label} href={link.href} target="_blank" rel="noopener noreferrer"

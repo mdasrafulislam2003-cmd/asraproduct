@@ -78,7 +78,7 @@ export default function AboutMe() {
 
             <div className="flex items-center gap-4 flex-wrap mt-8">
               <motion.a
-                href="https://drive.google.com/file/d/1w1gzvID9LRlNR1bk3LkTIkj3w_ujaWTN/view"
+                href="https://drive.google.com/file/d/1L921LziVJllUhESb7p149CcbZb-vKPbG/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary text-primary-foreground px-7 py-3 rounded-full font-medium hover:opacity-90 transition-all"
