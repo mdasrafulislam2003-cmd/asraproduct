@@ -6,8 +6,10 @@ import avatarImg from "@/assets/avatar.jpg";
 
 const journey = [
   { year: "24 ~", company: "India Index", role: "Sr. Product Designer", description: "Leading design for AI-driven e-commerce sourcing experiences, rebranding, and growth initiatives." },
-  { year: "22-24", company: "Freelance / Startups", role: "Product Designer", description: "Designed and shipped products from 0 to 1 across SaaS, fintech, and AI domains." },
-  { year: "20-22", company: "Various Startups", role: "UX/UI Designer", description: "Built user-centered design systems and led research-driven design across multiple product verticals." },
+  { year: "23-24", company: "Gyaan", role: "Product Designer", description: "Optimized deal management flows, increasing deal closure efficiency 5x and boosting user engagement." },
+  { year: "22-23", company: "Freelance", role: "Product Designer", description: "Designed and shipped products from 0 to 1 across SaaS, fintech, and AI domains." },
+  { year: "21-22", company: "TechStartup", role: "UX Designer", description: "Led end-to-end design for B2B SaaS products, conducting user research and building design systems." },
+  { year: "20-21", company: "Design Studio", role: "UI/UX Designer", description: "Built user-centered design systems and led research-driven design across multiple product verticals." },
 ];
 
 const skills = [
