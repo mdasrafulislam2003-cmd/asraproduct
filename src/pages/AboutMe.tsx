@@ -63,7 +63,7 @@ export default function AboutMe() {
                 <strong>Empathy first</strong> – people over pixels. I work closely with stakeholders and end-users to understand real needs. From shadowing procurement teams to mapping supplier workflows, I design with inclusion and context in mind.
               </p>
               <p>
-                <strong>Curious by default</strong> – keep asking until insights emerge. I dive deep into workflows, metrics, and competitor research to inform product decisions that drive measurable results.
+                <strong>Curious by default</strong> – keep asking until insights emerge. I love to dive deep into workflows, metrics, and competitor research to inform product decisions that drive measurable results.
               </p>
               <p>
                 <strong>Happy to challenge assumptions</strong> – data over trends. Whether it's designing AI-driven workflows or rethinking onboarding flows, I rely on evidence, not trends, to make impactful design decisions.
