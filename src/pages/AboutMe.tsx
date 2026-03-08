@@ -65,7 +65,7 @@ export default function AboutMe() {
               <p>
                 <strong>Happy to challenge assumptions</strong> – data over trends. Whether it's designing AI-driven workflows or rethinking onboarding flows, I rely on evidence, not trends, to make impactful design decisions.
               </p>
-              <p>
+              <p className="font-bold">
                 My approach: Innovate, don't imitate. Make products that actually work for users and the business.
               </p>
               <p>
