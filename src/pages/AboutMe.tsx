@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 import avatarImg from "@/assets/avatar.jpg";
 import bike1Img from "@/assets/bike-1.jpg";
 import bike2Img from "@/assets/bike-2.jpg";
+import bike3Img from "@/assets/bike-3.jpg";
+import bike4Img from "@/assets/bike-4.jpg";
 
 const journey = [
   { year: "Feb 2024 - Present", company: "India Index", role: "Sr. Product Designer", description: "Led end-to-end design for an AI-powered B2B procurement platform, driving 3x sales efficiency, 157% higher deal conversion, 322% increased user engagement, and building scalable design systems that reduced inconsistencies by 65%" },
@@ -213,11 +215,11 @@ export default function AboutMe() {
             <div className="rounded-xl overflow-hidden aspect-square">
               <img src={bike2Img} alt="Night bike ride" className="w-full h-full object-cover" />
             </div>
-            <div className="rounded-xl overflow-hidden aspect-square bg-muted flex items-center justify-center">
-              <span className="text-muted-foreground text-xs">Photo 3</span>
+            <div className="rounded-xl overflow-hidden aspect-square">
+              <img src={bike3Img} alt="Bike adventure" className="w-full h-full object-cover" />
             </div>
-            <div className="rounded-xl overflow-hidden aspect-square bg-muted flex items-center justify-center">
-              <span className="text-muted-foreground text-xs">Photo 4</span>
+            <div className="rounded-xl overflow-hidden aspect-square">
+              <img src={bike4Img} alt="Bike ride" className="w-full h-full object-cover" />
             </div>
           </motion.div>
         </div>
