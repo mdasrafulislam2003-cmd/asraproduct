@@ -202,6 +202,24 @@ export default function AboutMe() {
               </p>
             </motion.div>
           </div>
+
+          <motion.div
+            className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10"
+            {...fadeUp}
+          >
+            <div className="rounded-xl overflow-hidden aspect-square">
+              <img src={bike1Img} alt="Biking by the river" className="w-full h-full object-cover" />
+            </div>
+            <div className="rounded-xl overflow-hidden aspect-square">
+              <img src={bike2Img} alt="Night bike ride" className="w-full h-full object-cover" />
+            </div>
+            <div className="rounded-xl overflow-hidden aspect-square bg-muted flex items-center justify-center">
+              <span className="text-muted-foreground text-xs">Photo 3</span>
+            </div>
+            <div className="rounded-xl overflow-hidden aspect-square bg-muted flex items-center justify-center">
+              <span className="text-muted-foreground text-xs">Photo 4</span>
+            </div>
+          </motion.div>
         </div>
       </section>
 
