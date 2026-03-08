@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import { useLocation } from "react-router-dom";
 import avatarImg from "@/assets/avatar.jpg";
 import { useIsMobile } from "@/hooks/use-mobile";
 
@@ -13,8 +14,10 @@ const navLinks = [
 ];
 
 export default function Navbar() {
+  const location = useLocation();
   const [scrolled, setScrolled] = useState(false);
-  const [activeSection, setActiveSection] = useState("Work");
+  const isAboutMe = location.pathname === "/about-me";
+  const [activeSection, setActiveSection] = useState(isAboutMe ? "About Me" : "Work");
   const [mobileOpen, setMobileOpen] = useState(false);
   const isMobile = useIsMobile();
 
