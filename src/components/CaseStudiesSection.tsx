@@ -10,7 +10,7 @@ const caseStudies = [
 {
   tag: "#Growth design",
   company: "LOKALISE (2024)",
-  title: "Redesigning onboarding",
+  title: "Redesigning onboarding v1",
   description: "An onboarding redesign that increased activation rate by 19% and sign-up rate by 41%",
   cta: "READ CASE STUDY",
   image: coverOnboarding,
