@@ -12,7 +12,7 @@ const journey = [
   { year: "Feb 2022 - Mar 2025", company: "WePlay Sports", role: "Founding Product Designer", description: "Owned end-to-end design for a B2B sports and facility management platform and B2C player experience, leading research, building an atomic design system, and implementing AI-driven features that boosted user satisfaction 81% and cut design/dev time by 70%" },
   { year: "Mar 2022 - Oct 2022", company: "Gyaan", role: "Mid-level Product Designer", description: "Designed and shipped 10+ Salesforce-integrated features on an agile team, mentoring juniors, optimizing deal workflows, and driving 200+ customers with $55K+ revenue while ensuring fully responsive, user-friendly experiences." },
   { year: "Aug 2021 - Sep 2021", company: "Altalt", role: "UX Design intern", description: "Collaborated with stakeholders to define goals and constraints, designed the end-to-end UX and UI for CastingConnect and an anonymous QA MVP, built a custom design system, and presented solutions to peers and stakeholders." },
-  { year: "Aug 2021 - Sep 2021", company: "UXDW", role: "UX Design intern", description: "Collaborated with stakeholders to define requirements and roadmap, used research insights across three personas to create user-centered designs, sketches, and prototypes for an internship platform and landing page." },
+  { year: "Mar 2021 - May 2021", company: "UXDW", role: "UX Design intern", description: "Collaborated with stakeholders to define requirements and roadmap, used research insights across three personas to create user-centered designs, sketches, and prototypes for an internship platform and landing page." },
 ];
 
 const skills = [
