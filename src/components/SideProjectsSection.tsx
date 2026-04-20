@@ -27,7 +27,7 @@ const sideProjects = [
   tag: "#Airtable Plugin",
   year: "2024",
   title: "BenAI",
-  description: "An internal tool I built in Lokalise to automate customer feedback that saved the company $100k+ per year.",
+  description: "This is just for testing purpose nothing else.",
   image: coverDatascience,
   href: "#",
   badge: null
