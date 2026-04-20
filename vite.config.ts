@@ -5,6 +5,10 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // For GitHub Pages project sites, set base to "/<repo-name>/".
+  // Override locally with: VITE_BASE=/your-repo-name/ npm run build
+  // Defaults to "/" so Lovable preview & published site keep working.
+  base: process.env.VITE_BASE ?? "/",
   server: {
     host: "::",
     port: 8080,
